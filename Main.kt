@@ -1,1 +1,3 @@
-fun main(args : Array<String>){println("hello dat!")}
+fun main(args : Array<String>){
+	CommandRouter.run(args)
+}
